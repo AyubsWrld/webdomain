@@ -9,10 +9,12 @@
 }
 
 .AboutUs .RowOne {
+  padding : 0px 64px ; 
   display: flex;
   flex-direction: row;
+  width : 100% ; 
   justify-content: space-between;
-  align-items : flex-start ; 
+  align-items : center ; 
   gap: 128px; /* Adjusted gap for better spacing */
 }
 
@@ -61,13 +63,14 @@
   gap : 16px ; 
 }
 .AboutUs .RowOne .ColumnTwo .image {
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   border-radius: 32px;
   background-color: black;
 }
 
 .AboutUs .RowTwo {
+  width : 1650px ; 
   height : 640px ; 
   display: flex;
   flex-direction: column;
@@ -102,13 +105,13 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 16px;
-  max-width: 100%; /* Ensures the container adapts to the screen width */
-  justify-content: center; /* Center-aligns the cards */
+  max-width: 100%; 
+  justify-content: center; 
 }
 
 .AboutUs .RowTwo .card {
   height: 150px;
-  width: 300px; /* Adjusted width to fit better in the container */
+  width: 400px; /* Adjusted width to fit better in the container */
   background-color: var(--primary);
   border-style: solid;
   border-radius: 24px;
@@ -116,12 +119,12 @@
 }
 
 .AboutUs .RowThree{
+  padding : 0px 64px ; 
+  width : 100% ; 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items : center;
-  gap: 128px; /* Adjusted gap for better spacing */
-
 }
 
 .AboutUs .RowThree.ColumnOne {
