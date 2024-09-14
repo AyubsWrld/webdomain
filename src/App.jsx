@@ -4,6 +4,8 @@ import Header from './components/Header.jsx';
 import Navbar from './components/Navbar.jsx';
 import AboutUs from './components/AboutUs.jsx';
 import Contact from './components/Contact.jsx';
+import Events from './components/Events.jsx';
+import calligraphy from './assets/Calligraphy.png' ; 
 
 import './App.css';
 
@@ -23,13 +25,19 @@ function App() {
       <Header />
       <Landing />
       <Navbar selectedButton={selectedButton} onButtonSelect={handleNavbarSelection} />
+
       { selectedButton === "About Us" && (
         <div ref={aboutUsRef}>
           <AboutUs />
         </div>
       )}
+
       { selectedButton === "Contact" && (
           <Contact />
+      )}
+
+      { selectedButton === "Events" && (
+          <Events/>
       )}
     </>
   );

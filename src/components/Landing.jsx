@@ -14,10 +14,8 @@ export default function Landing(){
               Alhamdulillah, for 25 years, our mosque has been a center of worship, education, and community,<br/> offering spiritual guidance, support, and belonging to countless individuals and families.
           </div>
         </div>
-        <div className="Lower-Halve">
-            
-        </div>
       </div>
     </>
   )
 } ;
+

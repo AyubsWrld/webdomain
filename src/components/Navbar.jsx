@@ -29,7 +29,7 @@ export default function Navbar({ selectedButton, onButtonSelect }) {
 
         <button
           className={selectedButton === "Events" ? "selected" : "unselected"}
-          onClick={() => onButtonSelect("Events")}
+          onClick={() =>  onButtonSelect("Events")}
         >
           Events
         </button>

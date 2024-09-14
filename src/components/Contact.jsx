@@ -1,14 +1,14 @@
 import React from 'react';
-import styles from './Contact.css';
 import Form from './Form';
 import chat from '../assets/chatbubble.svg';
 import call from '../assets/phone.svg';
 import mosque from '../assets/mosque.svg';
+import './Contact.css';
 
 const ContactCard = ({ image, alt, text }) => (
-  <div className={styles.cardOne}>
-    <img className={styles.image} src={image} alt={alt} />
-    <div className={styles.cardText}>{text}</div>
+  <div className="card-one"> {/* Updated class name to kebab-case */}
+    <img className="image" src={image} alt={alt} />
+    <div className="card-text">{text}</div> {/* Updated class name */}
   </div>
 );
 
@@ -20,23 +20,23 @@ const Contact = () => {
   ];
 
   return (
-    <div className={styles.contactContainer}>
-      <div className={styles.rowOne}>
-        <div className={styles.chip}>Contact Us</div>
-        <h1 className={styles.header}>
-          <span className={styles.highlight}>Let's start</span> a <br />
+    <div className="contact-container"> {/* Updated class name */}
+      <div className="rowOne">
+        <div className="chip">Contact Us</div>
+        <h1 className="header">
+          <span className="highlight">Let's start</span> a <br />
           Conversation
         </h1>
       </div>
-      <div className={styles.rowTwo}>
-        <div className={styles.cardContainerOne}>
+      <div className="rowTwo">
+        <div className="card-container-one"> {/* Updated class name */}
           {contactCards.map((card, index) => (
             <ContactCard key={index} {...card} />
           ))}
         </div>
-        <div className={styles.cardContainerTwo}>
+        <div className="card-container-two"> {/* Updated class name */}
           <Form />
-          <div className={styles.cardTwo}></div>
+          <div className="card-two"></div> {/* Updated class name */}
         </div>
       </div>
     </div>

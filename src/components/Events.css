@@ -1,0 +1,43 @@
+.eventContainer {
+  padding : 64px 64px ;
+  display : flex ; 
+  flex-direction : column ; 
+  gap : 64px ; 
+}
+.eventContainer .RowTwo{
+  font-family : 'Helvetica' ; 
+  display : flex ; 
+  flex-direction : row ; 
+  width : 100% ;
+  gap : 16px ; 
+  align-items : center ; 
+  justify-content : center ; 
+}
+
+.eventContainer .RowOne{
+  font-family : 'Helvetica' ; 
+  display : flex ; 
+  flex-direction : column; 
+  align-items : center ; 
+  justify-content : center ; 
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 85px;
+  background-color: var(--primary);
+  color: var(--secondary);
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--secondary);
+  border-radius: 42px;
+  font-size: 16px;
+}
+.header {
+  font-size: 64px;
+  padding-top: 0;
+  font-weight: 800;
+}

@@ -1,11 +1,11 @@
-.contact-container{
-  padding : 64px 128px ; 
-  font-family : 'Helvetica' ; 
-  display : flex ; 
-  flex-direction : column; 
-  justify-content : center ; 
-  align-items : center ; 
-  gap : 64px ; 
+.contact-container {
+  padding: 64px 128px;
+  font-family: 'Helvetica';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
 }
 
 .contact-container .chip {
@@ -27,73 +27,71 @@
   font-size: 72px;
   padding-top: 8px;
   font-weight: 800;
-  text-align : center ;
-  line-height : 100% ; 
-}
-.highlight{
-  color : var(--secondary)  ;
+  text-align: center;
+  line-height: 100%;
 }
 
-.contact-container .RowOne{
-  display : flex ; 
-  flex-direction : column; 
-  justify-content : center ; 
-  align-items : center ; 
+.highlight {
+  color: var(--secondary);
 }
 
-.contact-container .RowTwo{
-  display : flex ; 
-  flex-direction : column; 
-  justify-content : center ; 
-  align-items : center ; 
-  gap : 16px ; 
+.contact-container .rowOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.contact-container .RowTwo .cardContainerOne{
-  display : flex ; 
-  flex-direction : row ; 
-  gap : 16px ; 
+.contact-container .rowTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
-.contact-container .RowTwo .cardContainerOne .cardOne{
-  height : 350px ; 
-  width : 350px ; 
-  background-color : var(--primary);
-  border-color : var(--secondary) ; 
-  border-style : solid ; 
-  border-radius : 24px ; 
-  display : flex ; 
-  flex-direction : column ; 
-  align-items : center ; 
-  justify-content : center; 
-  gap : 32px ;
+.contact-container .rowTwo .card-container-one {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
 }
 
-.contact-container .RowTwo .cardContainerOne .cardOne .cardText{
-  font-size : 24px ; 
-  font-weight : 700;
-  color : var(--secondary) ; 
+.contact-container .rowTwo .card-container-one .card-one {
+  height: 350px;
+  width: 350px;
+  background-color: var(--primary);
+  border-color: var(--secondary);
+  border-style: solid;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
 }
 
-.contact-container .RowTwo .cardContainerOne .cardOne .image{
-  height : 175px ; 
+.contact-container .rowTwo .card-container-one .card-one .card-text {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--secondary);
 }
 
-.contact-container .RowTwo .cardContainerTwo{
-  display : flex ; 
-  gap : 16px ; 
-  flex-direction : row ; 
-  justify-content : space-between ;
+.contact-container .rowTwo .card-container-one .card-one .image {
+  height: 175px;
 }
 
-.contact-container .RowTwo .cardContainerTwo .cardTwo{
-  width : 560px ;
-  height : 552px ;
-  background-color : var(--primary);
-  border-color : var(--secondary) ; 
-  border-radius : 24px ; 
-  border-style : solid ;
+.contact-container .rowTwo .card-container-two {
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-
-
+.contact-container .rowTwo .card-container-two .card-two {
+  width: 560px;
+  height: 552px;
+  background-color: var(--primary);
+  border-color: var(--secondary);
+  border-radius: 24px;
+  border-style: solid;
+}
