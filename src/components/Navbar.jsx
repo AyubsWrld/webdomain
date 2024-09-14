@@ -1,6 +1,7 @@
 import React from 'react';
 import './NavBar.css';
 
+
 export default function Navbar({ selectedButton, onButtonSelect }) {
   return (
     <div>

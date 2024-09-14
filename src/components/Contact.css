@@ -1,0 +1,99 @@
+.contact-container{
+  padding : 64px 128px ; 
+  font-family : 'Helvetica' ; 
+  display : flex ; 
+  flex-direction : column; 
+  justify-content : center ; 
+  align-items : center ; 
+  gap : 64px ; 
+}
+
+.contact-container .chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100px;
+  background-color: var(--primary);
+  color: var(--secondary);
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--secondary);
+  border-radius: 42px;
+  font-size: 16px;
+}
+
+.contact-container .header {
+  font-size: 72px;
+  padding-top: 8px;
+  font-weight: 800;
+  text-align : center ;
+  line-height : 100% ; 
+}
+.highlight{
+  color : var(--secondary)  ;
+}
+
+.contact-container .RowOne{
+  display : flex ; 
+  flex-direction : column; 
+  justify-content : center ; 
+  align-items : center ; 
+}
+
+.contact-container .RowTwo{
+  display : flex ; 
+  flex-direction : column; 
+  justify-content : center ; 
+  align-items : center ; 
+  gap : 16px ; 
+}
+
+.contact-container .RowTwo .cardContainerOne{
+  display : flex ; 
+  flex-direction : row ; 
+  gap : 16px ; 
+}
+
+.contact-container .RowTwo .cardContainerOne .cardOne{
+  height : 350px ; 
+  width : 350px ; 
+  background-color : var(--primary);
+  border-color : var(--secondary) ; 
+  border-style : solid ; 
+  border-radius : 24px ; 
+  display : flex ; 
+  flex-direction : column ; 
+  align-items : center ; 
+  justify-content : center; 
+  gap : 32px ;
+}
+
+.contact-container .RowTwo .cardContainerOne .cardOne .cardText{
+  font-size : 24px ; 
+  font-weight : 700;
+  color : var(--secondary) ; 
+}
+
+.contact-container .RowTwo .cardContainerOne .cardOne .image{
+  height : 175px ; 
+}
+
+.contact-container .RowTwo .cardContainerTwo{
+  display : flex ; 
+  gap : 16px ; 
+  flex-direction : row ; 
+  justify-content : space-between ;
+}
+
+.contact-container .RowTwo .cardContainerTwo .cardTwo{
+  width : 560px ;
+  height : 552px ;
+  background-color : var(--primary);
+  border-color : var(--secondary) ; 
+  border-radius : 24px ; 
+  border-style : solid ;
+}
+
+
+
