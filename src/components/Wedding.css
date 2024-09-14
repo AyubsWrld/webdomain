@@ -1,0 +1,119 @@
+.wedding-container {
+  font-family: 'Helvetica', sans-serif;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.wedding-container .RowOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.wedding-container .RowOne .chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 165px;
+  background-color: var(--primary);
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+  border-radius: 42px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.wedding-container .RowOne .header {
+  font-size: 64px;
+  padding-top: 8px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 100%;
+}
+
+.wedding-container .RowTwo {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.info-section {
+  flex: 1;
+  background-color: #f0f8ff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.info-section h2 {
+  color: #0066cc;
+  margin-bottom: 20px;
+}
+
+.info-section ul {
+  padding-left: 20px;
+}
+
+.info-section li {
+  margin-bottom: 10px;
+}
+
+.booking-form {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  background-color: #0066cc;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0052a3;
+}
+
+@media (max-width: 768px) {
+  .wedding-container .RowTwo {
+    flex-direction: column;
+  }
+  
+  .form-row {
+    flex-direction: column;
+  }
+}

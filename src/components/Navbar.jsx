@@ -21,8 +21,8 @@ export default function Navbar({ selectedButton, onButtonSelect }) {
         </button>
 
         <button
-          className={selectedButton === "Donate" ? "selected" : "unselected"}
-          onClick={() => onButtonSelect("Donate")}
+          className={selectedButton === "Wedding" ? "selected" : "unselected"}
+          onClick={() => onButtonSelect("Wedding")}
         >
           Wedding Services 
         </button>
