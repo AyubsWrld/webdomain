@@ -1,0 +1,49 @@
+.carousel-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.carousel-wrapper {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.carousel-content {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item {
+  flex: 0 0 calc(100% / 3);
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.carousel-button {
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.carousel-button:hover {
+  background-color: #e0e0e0;
+}
+
+.carousel-button svg {
+  width: 30px;
+  height: 30px;
+}

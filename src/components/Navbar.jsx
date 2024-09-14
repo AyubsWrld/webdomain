@@ -24,7 +24,7 @@ export default function Navbar({ selectedButton, onButtonSelect }) {
           className={selectedButton === "Donate" ? "selected" : "unselected"}
           onClick={() => onButtonSelect("Donate")}
         >
-          Donate
+          Wedding Services 
         </button>
 
         <button
