@@ -1,0 +1,204 @@
+.AboutUs {
+  font-family: 'Helvetica';
+  padding: 64px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 128px;
+}
+
+.AboutUs .RowOne {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items : flex-start ; 
+  gap: 128px; /* Adjusted gap for better spacing */
+}
+
+.AboutUs .RowOne .ColumnOne {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.AboutUs .RowOne .chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 85px;
+  background-color: var(--primary);
+  color: var(--secondary);
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--secondary);
+  border-radius: 42px;
+  font-size: 16px;
+}
+
+.AboutUs .RowOne .header {
+  font-size: 64px;
+  padding-top: 0;
+  font-weight: 800;
+}
+
+.AboutUs .RowOne .subtext {
+  padding-top: 12px;
+  font-size: 18px;
+  font-weight: 200;
+  opacity: 0.8;
+}
+
+.AboutUs .RowOne .ColumnTwo {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.imageContainer{
+  display : flex ; 
+  flex-direction : row ; 
+  gap : 16px ; 
+}
+.AboutUs .RowOne .ColumnTwo .image {
+  height: 300px;
+  width: 300px;
+  border-radius: 32px;
+  background-color: black;
+}
+
+.AboutUs .RowTwo {
+  height : 640px ; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.AboutUs .RowTwo .chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 85px;
+  background-color: var(--primary);
+  color: var(--secondary);
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--secondary);
+  border-radius: 42px;
+  font-size: 16px;
+}
+
+.AboutUs .RowTwo .header {
+  font-size: 64px;
+  padding-top: 0;
+  font-weight: 800;
+}
+
+.AboutUs .RowTwo .cardContainer {
+  padding-top : 32px;  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  max-width: 100%; /* Ensures the container adapts to the screen width */
+  justify-content: center; /* Center-aligns the cards */
+}
+
+.AboutUs .RowTwo .card {
+  height: 150px;
+  width: 300px; /* Adjusted width to fit better in the container */
+  background-color: var(--primary);
+  border-style: solid;
+  border-radius: 24px;
+  border-color: var(--secondary);
+}
+
+.AboutUs .RowThree{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items : center;
+  gap: 128px; /* Adjusted gap for better spacing */
+
+}
+
+.AboutUs .RowThree.ColumnOne {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.AboutUs .RowThree .chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 85px;
+  background-color: var(--primary);
+  color: var(--secondary);
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--secondary);
+  border-radius: 42px;
+  font-size: 16px;
+}
+.AboutUs .RowThree .header {
+  font-size: 64px;
+  padding-top: 0;
+  font-weight: 800;
+}
+
+.AboutUs .RowThree .ColumnTwo{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+.AboutUs .RowThree .ColumnTwo .questionContainer{
+  width : 600px ; 
+  display: flex;
+  flex-direction: column;
+  font-weight : 700 ; 
+  align-items : flex-start ; 
+  justify-content : space-between; 
+}
+.AboutUs .RowThree .ColumnTwo .questionContainer .divider {
+   
+}
+
+.AboutUs .RowThree .ColumnTwo .question {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Distribute space between the question text and the button */
+  width: 100%; /* Ensure the element takes up the full width */
+  padding: 8px 0; /* Optional: Adds some vertical padding */
+  gap: 16px; /* Adjust spacing between text and button, optional */
+}
+
+.AboutUs .RowThree .ColumnTwo .expand {
+  color: var(--secondary);
+  background-color: var(--primary);
+  height: 32px;
+  width: 32px;
+  border-radius: 50%; /* Makes the button a perfect circle */
+  border: 2px solid var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto; /* This pushes the button to the far end */
+}
+
+.AboutUs .RowThree .ColumnTwo .subcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.AboutUs .RowThree .ColumnTwo .faq-description {
+  margin-left: 16px; /* Slight indentation */
+  font-size: 14px; /* Adjust size if needed */
+  color: var(--primary-text); /* Example color */
+}

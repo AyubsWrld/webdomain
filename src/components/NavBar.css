@@ -1,0 +1,30 @@
+.button-container{
+  display : flex ;
+  align-items : center ; 
+  justify-content : center ; 
+  min-width : 100vh ; 
+  min-height : 175px ; 
+  gap : 32px ; 
+}
+
+.selected{
+  background-color : black ; 
+  height : 60px; 
+  width : 150px; 
+  font-family : "Helvetica" ; 
+  font-size : 16px ; 
+  color : white ; 
+  border-style : none ; 
+  border-radius : 24px ; 
+}
+
+.unselected{
+  background-color : white ; 
+  height : 60px; 
+  font-size : 16px ; 
+  width : 150px; 
+  font-family : "Helvetica" ; 
+  color : black; 
+  border-style : none ; 
+  border-radius : 24px ; 
+}

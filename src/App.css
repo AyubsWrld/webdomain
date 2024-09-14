@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Helvetica'; /* The name you'll use in your CSS */
+  src: url('./fonts/Helvetica.ttf')  ; 
+  font-weight: normal; /* Optional: You can define the weight here */
+  font-style: normal;  /* Optional: Define the style (e.g., normal, italic) */
+}
+:root {
+  --primary: #E9F2FD;
+  --secondary: #70B0FF;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+

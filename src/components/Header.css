@@ -1,0 +1,14 @@
+.Header-Container{
+  background-color : var(--primary) ;
+  display : flex ; 
+  flex-direction : row ; 
+  min-width : 100vh ; 
+  height : 175px ; 
+  justify-content: center ;
+}
+
+
+.Prayers-Container{
+  display : flex ; 
+  gap : 30px ; 
+}
