@@ -1,21 +1,29 @@
-import React from 'react'  ; 
-import Header from './Header.jsx'
-import './Landing.css' ;
+import React from 'react';
+import './Landing.css';
 
-export default function Landing(){
-  return(
-    <>
-      <div className="Landing-Container">
-        <div className="Upper-Halve">
-          <div className="Header">
-              Welcome to Sahaba Mosque, <br/>a sanctuary of unity. 
-          </div>
-          <div className="Subtext">
-              Alhamdulillah, for 25 years, our mosque has been a center of worship, education, and community,<br/> offering spiritual guidance, support, and belonging to countless individuals and families.
-          </div>
+export default function Landing() {
+  return (
+    <div className="landing-container">
+      <header className="header">
+        <div className="logo">
+          <div className="logo-circle"></div>
+          <span>Sahaba Mosque.</span>
         </div>
-      </div>
-    </>
-  )
-} ;
-
+      </header>
+      <main className="main-content">
+        <div className="left-section">
+          <p className="welcome-text">Welcome to Sahaba Mosque</p>
+          <h1 className="main-heading">
+            Welcome to<br />
+            Sahaba Mosque, a<br />
+            <span className="highlight">sanctuary of unity.</span>
+          </h1>
+          <button className="join-button">Join Us</button>
+        </div>
+        <div className="right-section">
+          {/* Placeholder for right side content or image */}
+        </div>
+      </main>
+    </div>
+  );
+}

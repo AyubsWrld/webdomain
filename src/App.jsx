@@ -5,10 +5,11 @@ import Navbar from './components/Navbar.jsx';
 import AboutUs from './components/AboutUs.jsx';
 import Contact from './components/Contact.jsx';
 import Events from './components/Events.jsx';
-import calligraphy from './assets/Calligraphy.png' ; 
+import calligraphy from './assets/pattern.png' ; 
 import Wedding from './components/Wedding.jsx' ; 
-
+import Footer from './components/Footer.jsx' ; 
 import './App.css';
+
 
 function App() {
   const [selectedButton, setSelectedButton] = useState("About Us");
@@ -22,28 +23,19 @@ function App() {
   };
 
   return (
-    <>
-      <Header />
+    <div className="app-container">
+      {/* Add the overlay here */}
+      <div className="background-overlay"></div>
+      //<Header />
       <Landing />
       <Navbar selectedButton={selectedButton} onButtonSelect={handleNavbarSelection} />
+      <AboutUs />
+      <Contact />
+      <Events/>
+      <Wedding />
 
-      { selectedButton === "About Us" && (
-        <div ref={aboutUsRef}>
-          <AboutUs />
-        </div>
-      )}
-
-      { selectedButton === "Contact" && (
-          <Contact />
-      )}
-
-      { selectedButton === "Events" && (
-          <Events/>
-      )}
-      { selectedButton === "Wedding" && (
-          <Wedding  />
-      )}
-    </>
+      <Footer /> 
+    </div>
   );
 }
 
